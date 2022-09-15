@@ -45,10 +45,14 @@ fun main(args: Array<String>) {
     calcularPrecio(20,"Edu")
     println(positNegat(4))
     println(parImpar (5))
+    //funRepeat(3)
+    /////////////////////////////////////////////////////////////////////
+    //EDIFICIO
+
 }
 
 
-    fun funReturningString(param1: Long): String {
+fun funReturningString(param1: Long): String {
         return "Esta función devuelve este texto y un $param1"
     }
 
@@ -95,5 +99,14 @@ fun main(args: Array<String>) {
         else
             return "$num es impar"
 
-    fun funRepeat ( )
+    //NoSale
+    fun funRepeat (repeticiones : Int) {
+        var it : Int = 3
+        repeat(it){3
+            println("Estoy repitiendo esto por $it vez de un total de $repeticiones")
+        }
     }
+
+
+
+}
